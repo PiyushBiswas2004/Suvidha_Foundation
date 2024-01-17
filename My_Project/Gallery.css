@@ -1,0 +1,24 @@
+.gallery-container {
+    display: flex; /* Arrange items in a row */
+    flex-wrap: wrap; /* Wrap items to the next row if needed */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .gallery-item {
+    width: 300px; /* Adjust width as needed */
+    margin: 10px; /* Add spacing between items */
+    border: 8px solid #ccc; /* Add a border */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    transition: all 0.3s ease; /* Add a smooth transition */
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    cursor: pointer; /* Change cursor to indicate interactivity */
+  }
+  
+  .gallery-item img {
+    width: 100%; /* Make image fill the container */
+    height: auto; /* Maintain aspect ratio */
+  }
