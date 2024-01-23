@@ -2,7 +2,13 @@
   margin: 0%;
   padding: 0%;
 }
-
+.image-thumbnail{
+  background-color: white;
+  height: 14vh;
+  width: 100%;
+  display: inline-flex;
+  position: fixed;
+}
 .container1 {
   background-color: white;
   height: 14vh;

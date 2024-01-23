@@ -1,10 +1,3 @@
-body {
-  background-color: rgb(164, 209, 97);
-  font-family: sans-serif;
-  margin: 0;
-  padding: 20px;
-}
-
 header {
   text-align: center;
   margin-bottom: 20px;
@@ -18,14 +11,6 @@ h1 {
 p {
   font-size: 16px;
   line-height: 1.5;
-}
-
-form {
-  width: 350px; /* Adjust as needed */
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
 }
 
 fieldset {
@@ -64,14 +49,7 @@ button[type="submit"] {
   cursor: pointer;
 }
 
-footer {
-  text-align: center;
-  margin-top: 20px;
-}
+
 
 /* Responsiveness */
-@media (max-width: 768px) {
-  form {
-    width: 100%;
-  }
-}
+

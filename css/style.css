@@ -435,3 +435,16 @@ nav ul {
   font-size: 17px;
   color: grey;
 }
+
+form {
+  width: 350px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
